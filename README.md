@@ -144,6 +144,7 @@ Start the backend
 
 ```bash
 cd backend
+source venv/bin/activate
 uvicorn main:app --reload
 ```
 Start the frontend
